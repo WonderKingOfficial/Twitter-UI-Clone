@@ -1,0 +1,62 @@
+.ul li {
+    display: flex;
+    align-items: center;
+
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.ul li:hover {
+    background-color: rgb(44, 44, 44);
+    border-radius: 100px;
+}
+
+.ul li svg {
+    margin-right: 14px;
+}
+
+.first {
+    width: 276px;
+}
+
+.second {
+    width: 600px;
+}
+
+.third {
+    width: 315px;
+}
+
+.opt svg {
+    margin: 6px;
+    height: fit-content;
+    cursor: pointer;
+}
+
+@media not all and (min-width: 1280px) {
+    .ul li svg {
+        margin-right: 0px;
+    }
+
+    .first {
+        width: fit-content;
+    }
+
+}
+
+@media not all and (min-width: 689px) {
+    .second {
+        width: 80vw;
+    }
+    .profileImg {
+        width: 2.2rem;
+    }
+    .Firstitems  {
+        margin-right: 2px;
+    }
+    .postbtn {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}
